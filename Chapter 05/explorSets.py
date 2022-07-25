@@ -10,4 +10,9 @@ s2.update(s3)
 s2.update([5, 6])
 
 isSubset = s2.issubset(range(1, 7))
+
+#set comprehension
+
+s5 = {i ** 2 for i in range(-5, 6)}
+
 ##TYJC
